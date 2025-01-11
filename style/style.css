@@ -16,6 +16,8 @@
 }
 .side-button{
     margin-top: 5px;
+    font-size: 15px;
+    font-weight: 500;
     color: #F1F1F3;
 }
 .sahre-btn:hover, .sahre-btn a:hover {
@@ -548,6 +550,9 @@ select {
 .info input{
     padding: 28px;
     width: 50%;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(14, 14, 14, 0.7);
     box-sizing: border-box;
     border: none;
     border-radius: 8px 0 0 8px;
