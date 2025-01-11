@@ -9,6 +9,7 @@
     background-color: rgb(0, 106, 80);
     padding: 15px 26px;
     border-radius: 8px;
+    color: #fff;
     margin: 25px 0;
     border: none;
     cursor: pointer;
@@ -394,4 +395,80 @@ select {
     font-size: 15px;
     font-weight: 400;
     line-height: 24px;
+}
+.donate-section{
+    max-width: 95%;
+    /* margin: auto; */
+    /* padding: 50px; */
+}
+.donate{
+    align-items: center;
+    text-align: center;
+    margin: 30px 80px;
+    padding: 30px;
+    
+}
+.donate h1{
+    font-size: 42px;
+    color: rgb(14, 14, 14, 0.8);
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.donate p{
+    color: rgb(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 20px;
+}
+.take{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    width: 100%;
+}
+.diff{
+    padding: 22px 32px;
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(14, 14, 14, 0.8);
+    border: 1px solid rgb(14, 14, 14, 0.15);
+    background-color:rgb(198, 228, 214);
+    border-radius: 7px;
+    transition: 0.9s;
+    cursor: pointer;
+}
+.diff:hover{
+    background-color: rgb(208, 228, 228);
+}
+.take-button{
+    padding: 32px;
+    
+
+}
+.take-button .semilar{
+    padding: 22px 32px;
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(14, 14, 14, 0.8);
+    border: 1px solid rgb(14, 14, 14, 0.15);
+    background-color:rgb(255, 255, 255) ;
+    border-radius: 7px;
+    transition: 0.9s;
+    cursor: pointer;
+}
+.take-button .semilar:hover{
+    background-color: rgb(203, 231, 224);
+}
+.other-aount{
+    width: 89%;
+    padding: 20px 40px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid rgb(14, 14, 14, 0.15);
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(14, 14, 14, 0.7);
 }
