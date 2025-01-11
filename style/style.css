@@ -568,7 +568,7 @@ select {
 
 
 
-footer{
+.footer-section{
     background-color: rgb(255, 255, 255);
     /* height: 320px; */
     padding: 30px 100px;
@@ -577,12 +577,10 @@ footer{
 .foot-section{
     width: 80%;
     margin: auto;
+    text-align: center;
     
 }
-.feta{
-   text-align: center;
-   /* padding: 30px 130px; */
-}
+
 .footer-h1{
     padding: 30px;
     color: rgb(14, 14, 14, 0.8);
